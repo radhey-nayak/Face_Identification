@@ -12,10 +12,10 @@ public class ConectaBanco {
     
     public Connection conn;
     
-    private final String driver = "com.mysql.jdbc.Driver";
-    private final String root ="jdbc:mysql://localhost:3306/facial_recognisation"; 
-    private final String user ="root";
-    private final String pass ="Paka";
+    private final String driver = ""; // e.g. com.mysql.jdbc.Driver
+    private final String root =""; //e.g. jdbc:mysql://localhost:3306/facial_recognisation
+    private final String user =""; // username
+    private final String pass =""; // password
             
             public void connect()
             {
